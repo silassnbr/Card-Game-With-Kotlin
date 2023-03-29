@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dort">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView19">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bir"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <ImageView
+                android:id="@+id/dört"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="300dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <ImageView
+                android:id="@+id/üc"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="204dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <ImageView
+                android:id="@+id/iki"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="97dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/yedi"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="191dp" />
+
+            <ImageView
+                android:id="@+id/altı"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <ImageView
+                android:id="@+id/sekiz"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="298dp"
+                tools:layout_editor_absoluteY="191dp" />
+
+            <ImageView
+                android:id="@+id/bes"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="189dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/oniki"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="298dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <ImageView
+                android:id="@+id/dokuz"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <ImageView
+                android:id="@+id/onbir"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <ImageView
+                android:id="@+id/on"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="284dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/onaltı"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="300dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <ImageView
+                android:id="@+id/ondört"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <ImageView
+                android:id="@+id/onbeş"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <ImageView
+                android:id="@+id/onüc"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="378dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="36dp"
+        android:layout_height="27dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/buttonYeniOyun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="Yeni Oyun"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/SüreBitti2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <TextView
+        android:id="@+id/textViewPuan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView15" />
+
+
+    <TextView
+        android:id="@+id/SüreBitti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Süre Bitti"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Süre:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="Puan:"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewPuan2"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPuan2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:text="Puan2:"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/ses_acik" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="55dp"
+        android:text="Geri"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

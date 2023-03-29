@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kotlinDeneme1</string>
+    <string name="basla">BASLA</string>
+    <string name="_2_2">2*2</string>
+    <string name="s_re_bitti">Süre Bitti</string>
+    <string name="yeni_oyun">Yeni Oyun</string>
+</resources>
